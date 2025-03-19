@@ -1,0 +1,19 @@
+<style>
+  .main{
+    display: grid;
+    grid-template-columns: 16rem 1fr;
+  }
+  .section{
+    margin: 1.5rem;
+  }
+  
+</style>
+
+<main class="main">
+  <div>
+    <app-asidebar/>
+  </div>
+  <section class="section">
+    <router-outlet/>
+  </section>
+</main>

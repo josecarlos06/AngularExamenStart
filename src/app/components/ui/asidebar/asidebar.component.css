@@ -1,0 +1,48 @@
+.asidebar {
+   height: 100vh;
+   background: white;
+   border-right: 1px solid rgba(55, 55, 55, 0.163)
+}
+
+.asidebar__title {
+   color: var(--bg-primary);
+   font-weight: 500;
+   font-size: 1.2rem;
+}
+
+.p2 {
+   padding: 1.2rem 1rem;
+   border-bottom: 1px solid rgba(55, 55, 55, 0.163)
+}
+
+.paragraph {
+   color: rgb(98, 98, 98);
+   font-weight: 500;
+   font-size: 0.9rem;
+}
+
+.asidebar__li {
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   margin-top: 1rem;
+}
+
+.asidebar__link {
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+   padding: .55rem;
+   font-size: .8rem;
+   border-radius: .4rem;
+
+   svg {
+      width: 1.2rem;
+   }
+
+}
+
+.active {
+   background: var(--bg-primary);
+   color: white;
+}
